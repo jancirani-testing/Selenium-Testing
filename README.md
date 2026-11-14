@@ -201,7 +201,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 **Jancirani**
 
-[![GitHub](https://img.shields.io/badge/GitHub-yogeshwari1525-181717?style=for-the-badge&logo=github)](https://github.com/yogeshwari1525)
+[![GitHub](https://github.com/jancirani-testing)
 
 <div align="center">
 
