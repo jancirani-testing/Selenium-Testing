@@ -1,94 +1,162 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00b09b&height=220&section=header&text=E-Commerce%20Test%20Automation&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=End-to-End%20Selenium%20%2B%20TestNG%20UI%20Test%20Suite&descAlignY=58&descSize=18" width="100%"/>
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&duration=2500&pause=800&color=2C5364&center=true&vCenter=true&width=650&lines=Selenium+%2B+TestNG+%2B+Maven;Page+Object+Model+Architecture;Custom+TestNG+Listeners;Full+Shopping+Flow+Coverage" alt="Typing SVG" />
+<img src="https://capsule-render.vercel.app/api?type=waving&height=230&color=0:0f2027,45:203a43,100:00b09b&text=E-Commerce%20Test%20Automation&fontSize=38&fontColor=ffffff&fontAlignY=38&desc=Quality%20is%20not%20an%20accident.%20It%20is%20engineered.&descAlignY=58&descSize=16&animation=fadeIn" width="100%" />
 
 <br/>
 
-[![Java](https://img.shields.io/badge/Java-8%2B-orange?style=for-the-badge&logo=openjdk)](https://www.oracle.com/java/)
-[![Selenium](https://img.shields.io/badge/Selenium-WebDriver-43B02A?style=for-the-badge&logo=selenium)](https://www.selenium.dev/)
-[![TestNG](https://img.shields.io/badge/TestNG-Framework-orange?style=for-the-badge)](https://testng.org/)
-[![Maven](https://img.shields.io/badge/Build-Maven-C71A36?style=for-the-badge&logo=apachemaven)](https://maven.apache.org/)
-[![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](#license)
+E-Commerce Test Automation Framework
+Automated testing. Reliable shopping journeys. Better software quality.
+
+A Java-based UI automation framework built with Selenium WebDriver, TestNG, and Maven, designed to validate essential e-commerce workflows through automated end-to-end testing.
 
 <br/>
 
-![Profile Views](https://komarev.com/ghpvc/?username=ecommerce-test-automation&label=Repo%20Views&color=2c5364&style=flat-square)
-[![GitHub stars](https://img.shields.io/github/stars/<your-username>/ecommerce-test-automation?style=social)](https://github.com/<your-username>/ecommerce-test-automation/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/<your-username>/ecommerce-test-automation?style=social)](https://github.com/<your-username>/ecommerce-test-automation/network/members)
+![Java](https://img.shields.io/badge/Java-8%2B-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-WebDriver-43B02A?style=for-the-badge&logo=selenium&logoColor=white) ![TestNG](https://img.shields.io/badge/TestNG-Testing_Framework-FF7043?style=for-the-badge) ![Maven](https://img.shields.io/badge/Maven-Build_Tool-C71A36?style=for-the-badge&logo=apachemaven&logoColor=white) ![IDE](https://img.shields.io/badge/IDE-Eclipse-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)
 
 <br/>
 
-[Overview](#-overview) •
-[Tech Stack](#-tech-stack) •
-[Test Coverage](#-test-coverage) •
-[Project Structure](#-project-structure) •
-[Getting Started](#-getting-started) •
-[Running Tests](#-running-tests) •
-[Reports](#-test-reports) •
-[Contributing](#-contributing)
+![GitHub stars](https://img.shields.io/github/stars/YOUR_USERNAME/ecommerce-test-automation?style=social) ![GitHub forks](https://img.shields.io/github/forks/YOUR_USERNAME/ecommerce-test-automation?style=social) ![GitHub issues](https://img.shields.io/github/issues/YOUR_USERNAME/ecommerce-test-automation)
+
+<br/>
+
+Overview • Features • Tech Stack • Test Coverage • Architecture • Installation • Execution • Reports
 
 </div>
 
-<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.gif" width="100%">
+📌 Project Overview
 
----
+E-Commerce Test Automation Framework is a web UI automation project developed to verify the functionality, reliability, and usability of an e-commerce application.
 
-## 📖 Overview
+The framework automates real-world shopping scenarios, covering the complete customer journey — from creating an account and discovering products to managing the shopping cart and completing checkout.
 
-This is a **Selenium WebDriver + TestNG** automation framework built to validate the complete shopping journey of an e-commerce web application — from browsing and product search through to cart management, checkout, registration, and subscriptions. The framework follows the **Page Object Model (POM)** and uses **custom TestNG listeners** for enhanced test execution reporting.
+Built using Selenium WebDriver and TestNG, the project demonstrates practical automation testing concepts, structured test organization, execution management, and reporting through custom TestNG listeners.
 
-### ✨ Key Features
+The primary objective is simple:
 
-- 🧩 **Page Object Model** architecture for clean, maintainable test code
-- 🎧 **Custom TestNG Listener** (`TestListener.java`) for lifecycle hooks, logging, and reporting
-- 🛒 **Full shopping-flow coverage** — search, cart, checkout, and order placement
-- 👤 **Account management tests** — registration, login, logout, subscriptions
-- ⭐ **Product interaction tests** — reviews, recommendations, quantity updates, categories
-- 📝 Auto-generated **TestNG HTML/XML reports** after every run
-- 🔧 **Maven**-managed dependencies and build lifecycle
+Catch defects early, validate critical user journeys, and build confidence in application quality through automation.
+🎯 Project Goals
+Automate repetitive manual testing activities.
+Validate critical e-commerce business workflows.
+Improve test execution consistency and reliability.
+Organize test scripts for better readability and maintenance.
+Generate execution reports for test result analysis.
+Demonstrate practical Selenium and TestNG automation skills.
+✨ Key Features
 
----
+<table>
+<tr>
+<td width="50%">
 
-## 🛠 Tech Stack
+🛒 End-to-End Shopping Tests
+Product discovery and search
+Add and remove cart items
+Product quantity validation
+Checkout and order placement
+Recommended product verification
 
-| Category | Technology |
-|---|---|
-| **Language** | Java 8+ |
-| **Test Framework** | TestNG |
-| **Build Tool** | Maven |
-| **Browser Automation** | Selenium WebDriver |
-| **Execution Hooks** | Custom TestNG Listeners |
-| **IDE** | Eclipse |
+</td>
+<td width="50%">
 
----
+🔐 Account & Authentication
+User registration
+Login functionality
+Logout functionality
+Subscription verification
+Account-related workflows
 
-## 🧪 Test Coverage
+</td>
+</tr>
+<tr>
+<td width="50%">
 
-<div align="center">
+⚙️ Automation Architecture
+Selenium WebDriver integration
+TestNG test execution
+Maven dependency management
+Organized Java test packages
+Custom TestNG listener
 
-| Module | Covers |
-|---|---|
-| 🔐 **Auth & Account** | `Login`, `LogOut`, `Register`, `Verify_Subscription`, `verify_subscription_cartPage` |
-| 🛍️ **Product Discovery** | `Search_product`, `View_category`, `Verify_all_product_page`, `Recommended_items` |
-| 🛒 **Cart & Checkout** | `Add_toCart`, `Remove_cart`, `ViewCartProduct`, `Product_quantity`, `Place_order_Resister_checkout` |
-| ⭐ **Engagement** | `Review_on_product`, `Contact_us` |
-| ⚙️ **Core Utilities** | `Functionality`, `TestListener` (ITlisteners) |
+</td>
+<td width="50%">
 
-</div>
+📊 Execution & Reporting
+Automated test execution
+TestNG HTML reports
+XML execution reports
+Test lifecycle monitoring
+Execution result tracking
 
----
+</td>
+</tr>
+</table>
 
-## 📂 Project Structure
+🧰 Technology Stack
 
-```
+The framework combines industry-standard automation technologies to create a structured and maintainable testing environment.
+
+Technology	Purpose
+☕ Java 8+	Programming language
+🌐 Selenium WebDriver	Browser automation
+🧪 TestNG	Test execution and management
+📦 Apache Maven	Build and dependency management
+🎧 TestNG Listeners	Test lifecycle monitoring
+💻 Eclipse IDE	Development environment
+🌍 Chrome / Firefox	Browser execution
+Technology Resources
+Java Documentation
+Selenium Documentation
+TestNG Documentation
+Apache Maven Guide
+🧪 Test Coverage
+
+The project covers multiple functional areas of an e-commerce application.
+
+1. 🔐 Authentication & Account Management
+Test Class	Testing Scenario
+Register.java	Verify user registration
+Login.java	Validate login functionality
+LogOut.java	Verify logout functionality
+2. 🛍️ Product Discovery & Navigation
+Test Class	Testing Scenario
+Search_product.java	Search for products
+View_category.java	Verify product categories
+Verify_all_product_page.java	Validate product listing page
+Recommended_items.java	Verify recommended products
+3. 🛒 Shopping Cart & Checkout
+Test Class	Testing Scenario
+Add_toCart.java	Add products to shopping cart
+Remove_cart.java	Remove products from cart
+ViewCartProduct.java	Verify cart product details
+Product_quantity.java	Validate product quantity
+Place_order_Resister_checkout.java	Verify order placement and checkout
+4. ⭐ User Engagement & Subscription
+Test Class	Testing Scenario
+Review_on_product.java	Submit product reviews
+Contact_us.java	Verify contact functionality
+Verify_Subscription.java	Validate subscription functionality
+verify_subscription_cartPage.java	Verify subscription on cart page
+5. ⚙️ Framework Components
+Component	Responsibility
+TestListener.java	Monitor TestNG test lifecycle
+Functionality.java	Shared test functionality
+
+Note: Test coverage is based on the test classes currently included in the project.
+
+🏗️ Project Architecture
+
+The project follows a structured Maven directory layout to separate application code, test scripts, resources, and execution reports.
+
+text
 ecommerce-test-automation/
+│
 ├── src/
-│   ├── main/java/
-│   │   └── ITlisteners/
-│   │       ├── TestListener.java        # Custom TestNG execution listener
-│   │       └── package-info.java
+│   │
+│   ├── main/
+│   │   └── java/
+│   │       └── ITlisteners/
+│   │           ├── TestListener.java
+│   │           └── package-info.java
+│   │
 │   └── test/
 │       ├── java/
 │       │   └── package_pro/
@@ -110,105 +178,215 @@ ecommerce-test-automation/
 │       │       ├── View_category.java
 │       │       ├── verify_subscription_cartPage.java
 │       │       └── package-info.java
-│       └── resources/                   # Test data / config files
-├── test-output/                         # TestNG execution reports (generated)
-├── target/                              # Compiled build output (git-ignored)
-├── pom.xml                              # Maven dependencies & build config
-└── testng.xml                           # TestNG suite configuration
-```
+│       │
+│       └── resources/
+│
+├── test-output/              # Generated TestNG reports
+│
+├── target/                   # Maven build output
+│
+├── pom.xml                   # Maven configuration
+│
+├── testng.xml                # TestNG suite configuration
+│
+└── README.md                 # Project documentation
 
----
+🔍 Architecture Highlights
+Test Layer: Contains individual Java test classes responsible for validating application features.
+Listener Layer: Handles TestNG execution lifecycle events through a custom listener.
+Resource Layer: Provides a location for test data and configuration resources.
+Build Layer: Maven manages project dependencies and build execution.
+Reporting Layer: TestNG generates execution reports after test runs.
+🚀 Getting Started
 
-## ✅ Prerequisites
+Follow these instructions to set up and execute the automation framework locally.
 
-- [Java JDK 8+](https://www.oracle.com/java/technologies/downloads/)
-- [Maven](https://maven.apache.org/download.cgi)
-- [Eclipse IDE](https://www.eclipse.org/downloads/) with **TestNG** and **EGit** plugins
-- Chrome/Firefox browser with a matching WebDriver version
+📋 Prerequisites
 
----
+Make sure the following tools are installed:
 
-## 🚀 Getting Started
+Requirement	Version
+Java JDK	8 or above
+Apache Maven	Compatible installed version
+Eclipse IDE	Latest recommended
+Browser	Chrome / Firefox
+TestNG Plugin	For Eclipse execution
+1. Clone the Repository
+bash
+git clone https://github.com/YOUR_USERNAME/ecommerce-test-automation.git
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/ecommerce-test-automation.git
-   cd ecommerce-test-automation
-   ```
+2. Navigate to the Project
+bash
+cd ecommerce-test-automation
 
-2. **Import into Eclipse**
-   `File > Import > Existing Maven Projects` → select the cloned folder
+3. Verify Java Installation
+bash
+java -version
 
-3. **Resolve dependencies**
-   Right-click the project → `Maven > Update Project`
+4. Verify Maven Installation
+bash
+mvn -version
 
-4. **Configure environment**
-   Update base URL, credentials, and browser settings in the relevant config file as needed
+5. Install Project Dependencies
+bash
+mvn clean install
 
----
+6. Import into Eclipse
+Open Eclipse IDE.
+Select File → Import.
+Choose Existing Maven Projects.
+Browse to the cloned repository.
+Select the project and click Finish.
+Right-click the project and select Maven → Update Project.
+▶️ Test Execution
 
-## ▶️ Running Tests
+You can execute the automation scripts using either Eclipse IDE or the Maven command line.
 
-**Option 1 — Via Eclipse**
-Right-click `testng.xml` → **Run As → TestNG Suite**
+Option 1: Execute Through Eclipse
+Open the project in Eclipse.
+Locate testng.xml.
+Right-click the file.
+Select Run As → TestNG Suite.
+Monitor the execution results in the TestNG console.
+Option 2: Execute Through Maven
 
-**Option 2 — Via Maven CLI**
-```bash
+Run the complete configured test suite:
+
+bash
 mvn test
-```
 
-> 💡 `TestListener.java` hooks into test execution to provide enhanced logging and reporting throughout the run.
 
----
+Perform a clean build and execute tests:
 
-## 📊 Test Reports
+bash
+mvn clean test
 
-After execution, TestNG automatically generates reports in the `test-output/` directory:
 
-- `test-output/index.html` — interactive summary report
-- `test-output/emailable-report.html` — shareable summary report
+Build and package the project:
 
----
+bash
+mvn clean package
 
-## 🗺 Roadmap
 
-- [ ] Integrate CI/CD pipeline (GitHub Actions / Jenkins)
-- [ ] Add cross-browser parallel execution
-- [ ] Extend reporting with Extent/Allure reports
-- [ ] Add Dockerized execution environment
+Execution Note: Test execution depends on the browser, application availability, and configuration used by the test scripts. Update the required application URL, credentials, and browser settings before execution where applicable.
 
----
+📊 Test Reports & Results
 
-## 🤝 Contributing
+After execution, TestNG generates reports that help analyze the outcome of automated test cases.
 
-Contributions are welcome! To contribute:
+📁 Report Location
+text
+test-output/
+│
+├── index.html
+├── emailable-report.html
+├── testng-results.xml
+└── other generated report files
+
+📈 Available Reports
+Report	Description
+index.html	TestNG execution summary
+emailable-report.html	Email-friendly test execution report
+testng-results.xml	Structured XML test results
+View Your Test Results
+Execute the test suite.
+Navigate to the test-output/ directory.
+Open index.html in your browser.
+Review passed, failed, and skipped test cases.
+🔮 Future Enhancements
+
+The framework provides a foundation for further improvements in automation architecture, execution efficiency, and reporting.
+
+Enhancement	Description	Status
+Page Object Model	Improve separation of test logic and page interactions	Planned
+Extent Reports / Allure	Add advanced execution reporting	Planned
+GitHub Actions	Automate test execution through CI/CD	Planned
+Cross-Browser Testing	Expand browser compatibility coverage	Planned
+Parallel Execution	Reduce execution time	Planned
+Data-Driven Testing	Support multiple test data combinations	Planned
+Screenshot Capture	Capture screenshots for failed tests	Planned
+Logging Framework	Improve debugging and execution traceability	Planned
+🤝 Contributing
+
+Contributions, suggestions, and improvements are always welcome!
+
+If you would like to improve this project:
 
 1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/your-feature`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature`)
+
+2. Create a new branch
+
+bash
+git checkout -b feature/your-feature-name
+
+
+3. Commit your changes
+
+bash
+git commit -m "Add: your feature description"
+
+
+4. Push your branch
+
+bash
+git push origin feature/your-feature-name
+
+
 5. Open a Pull Request
 
----
+Describe your changes and submit them for review.
 
-## 📄 License
+🐛 Issues & Feedback
 
-This project is licensed under the [MIT License](LICENSE).
+Found a bug or have an idea to improve the framework?
 
----
+Open an issue in the GitHub repository.
+Describe the problem clearly.
+Include relevant execution details or screenshots.
+Suggest improvements whenever possible.
 
-## 👤 Author
+Your feedback helps make the framework better!
 
-**Jancirani**
-
-[![GitHub](https://github.com/jancirani-testing)
+👨‍💻 Author
 
 <div align="center">
 
-### ⭐ If you find this project useful, consider giving it a star!
+Jancirani
 
-<img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="120">
+QA Automation Tester | Java | Selenium WebDriver | TestNG
+
+Passionate about software quality, test automation, and building reliable testing solutions.
+
+<br/>
+
+<a href="https://github.com/jancirani-testing">
+<img src="https://img.shields.io/badge/GitHub-jancirani--testing-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+<br/><br/>
+
+Building better software, one automated test at a time.
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00b09b,50:2c5364,100:0f2027&height=150&section=footer&animation=fadeIn"/>
+📄 License
+
+This project is distributed under the MIT License.
+
+See the LICENSE file for more information.
+
+<div align="center">
+
+⭐ Like This Project?
+
+If you find this automation framework useful, consider giving it a Star ⭐ on GitHub.
+
+Your support and feedback are appreciated!
+
+<br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=0:00b09b,50:203a43,100:0f2027" width="100%" />
+
+Made with ☕ Java, 🧪 Selenium & ❤️ for Quality Assurance
+
+</div>
